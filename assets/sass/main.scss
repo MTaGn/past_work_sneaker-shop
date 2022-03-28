@@ -1,0 +1,18 @@
+@use "value" as val;
+@use "header" as header;
+@use "mainvisual-container" as mainvisual;
+@use "pickup-container" as pickup;
+@use "feature-container" as feature;
+@use "footer" as footer;
+
+html {
+  font-size: 100%;
+
+  .body {
+    font-family: val.$font-family;
+
+    .main {
+      padding-top: 90px;
+    }
+  }
+}

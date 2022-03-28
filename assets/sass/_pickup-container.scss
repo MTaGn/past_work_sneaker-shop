@@ -1,0 +1,41 @@
+.pickup-container {
+  padding: 100px 0px;
+
+  .subheading {
+    font-size: val.$sec-pc-f2size;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .pickup-container__pickup-images {
+    display: flex;
+
+    .pickup-img {
+      padding: 0 30px;
+
+      .img {
+        width: 100%;
+      }
+    }
+
+    .slick-prev {
+      z-index: 99;
+      left: 15px;
+    }
+    .slick-next {
+      z-index: 100;
+      right: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pickup-container  {
+    padding: 80px 0;
+
+    .subheading {
+      font-size: val.$sec-sp-fsize;
+    }
+  }
+}

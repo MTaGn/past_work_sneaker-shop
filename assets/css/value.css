@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*--------
+フォントファミリー
+---------*/
+/*--------
+フォントサイズ
+
+htmlタグ:100%(16px)
+
+-font-size(pc)
+section title: 2.25rem(36px)
+section-title2(section titleより下位の見出し: 1.75rem(28px))
+ベース: 0.9rem(14.6rem)
+copyright等: 0.625rem(10px)
+
+-font-size(sp)
+section title: 1.5rem(24px)
+section title2(section titleより下位の見出し: 1.25rem(20px))
+ベース: 0.9rem(14.6rem)
+copyright等: 0.625rem(10px)
+---------*/
+/*--------
+幅
+---------*/
+/*-------
+色
+--------*/
+/*# sourceMappingURL=value.css.map */

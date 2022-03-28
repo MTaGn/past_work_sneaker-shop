@@ -1,0 +1,50 @@
+/*--------
+フォントファミリー
+---------*/ 
+$font-family:"Arial", "メイリオ", "ヒラギノ角ゴシック", sans-serif;
+
+/*--------
+フォントサイズ
+
+htmlタグ:100%(16px)
+
+-font-size(pc)
+section title: 2.25rem(36px)
+section-title2(section titleより下位の見出し: 1.75rem(28px))
+ベース: 0.9rem(14.6rem)
+copyright等: 0.625rem(10px)
+
+-font-size(sp)
+section title: 1.5rem(24px)
+section title2(section titleより下位の見出し: 1.25rem(20px))
+ベース: 0.9rem(14.6rem)
+copyright等: 0.625rem(10px)
+---------*/
+
+// pc
+$sec-pc-fsize: 2.25rem;
+$sec-pc-f2size: 1.75rem;
+// 共通
+$min-fsize: 0.625rem;
+$cat-date-fsize: 0.75rem;
+$base-fsize: 0.9rem;
+$nav-fsize: 1rem;
+// sp
+$sec-sp-fsize: 1.5rem;
+$sec-sp-f2size: 1.25rem;
+
+
+
+/*--------
+幅
+---------*/ 
+$nav-menus-width: 300px;
+$sec-width: 1240px;
+
+/*-------
+色
+--------*/ 
+$base-font-color: #333333;
+$white-font-color: #ffffff;
+$mask-bgcolor: rgba($color: #000000, $alpha: 0.5);
+$nav-menus-bgcolor: #000000;
