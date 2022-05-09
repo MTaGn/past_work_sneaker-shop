@@ -17,9 +17,7 @@
     }
 
     if (window.innerWidth <= 600) {
-      console.log("slickSp");
       slickSp();
-
     }
 
     $(".pickup-container__pickup-images").slick({
