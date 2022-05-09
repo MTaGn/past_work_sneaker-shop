@@ -33,7 +33,7 @@
     })
   })
 
-  // ※closeボタンの処理とまとめたい maskクリック時処理
+  // maskクリック時処理
   maskElem.addEventListener("click", () => {
     // humbergerアニメーション用クラス
     fhumbergerElem.classList.add("open-humberger")
