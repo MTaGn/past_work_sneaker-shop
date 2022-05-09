@@ -1,8 +1,10 @@
 # site name
-英会話スクール紹介LP
+スニーカーショップWebサイト
 # porpose
-ふわっとしたアニメーションを使用して親しみやすいWebサイト構築を目的として作成しました
+gridレイアウトやスタイリッシュアニメーションを使用してスタイリッシュなWebサイト構築を目的に作成しました
 # features
-Intersection API使用
+Gridレイアウト、カルーセルスライダーを使用
 # requirement
 dart sassを使用しています
+
+slick1.8.1を使用しています
